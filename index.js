@@ -389,6 +389,7 @@ module.exports = function autoFishing(mod) {
 				break;
 			case 'save':
 				saveConfig();
+				mod.command.message(`Configuration saved !`);
 				break;
 			default:
 				enabled = !enabled;
