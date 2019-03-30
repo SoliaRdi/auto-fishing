@@ -160,6 +160,7 @@ module.exports = function autoFishing(mod) {
 				startCraft();
 			}
 			if (message.id == 'SMT_CANNOT_FISHING_FULL_INVEN') {
+				if(needToSellFishes || needToDecompose) return; // Patch 80.04 has bug where it sends this twice in row with timeout of 120 millieseconds between each, Here this check to prevent the requesting contract again then it cause it to cancel the first. Ps, It doesn't happen always, but 80% of the time.
 				if (config.filetmode == 'sellfishes' && findedFillets != null && findedFillets.amount > 200) {
 					needToSellFishes = true;
 					timeouts.push(setTimeout(() => {

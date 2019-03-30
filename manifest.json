@@ -1,6 +1,6 @@
 {
     "files": {
-        "index.js": "80d8ab6db0f75fdff53f04582dbaeecda4588b3f04e85b4772afac0a17030d6a",
+        "index.js": "a46eb90f1c7cab742cfd1f534811a0375593d25f6640669b049137e1d2e41219",
         "module.json": "c12709972bc6bf77c8b652dfe551bd0e48939dc57d097b4fef8a05b8797cee92"
     },
     "defs": {
@@ -11,6 +11,7 @@
         "C_NPC_CONTACT": 2,
         "C_PCBANGINVENTORY_USE_SLOT": 1,
         "C_PLAYER_LOCATION": 5,
+        "C_PUT_WARE_ITEM": 2,
         "C_REQUEST_CONTRACT": 1,
         "C_RETURN_TO_LOBBY": 1,
         "C_RQ_ADD_ITEM_TO_DECOMPOSITION_CONTRACT": 1,
@@ -18,6 +19,8 @@
         "C_SHOW_INVEN": 1,
         "C_START_FISHING_MINIGAME": 1,
         "C_START_PRODUCE": 1,
+        "C_STORE_COMMIT": 1,
+        "C_STORE_SELL_ADD_BASKET": 1,
         "C_USE_ITEM": 3,
         "S_ABNORMALITY_BEGIN": 3,
         "S_ABNORMALITY_END": 1,
@@ -37,6 +40,7 @@
         "S_SPAWN_NPC": 11,
         "S_START_COOLTIME_ITEM": 1,
         "S_START_FISHING_MINIGAME": 1,
+        "S_STORE_BASKET": "raw",
         "S_SYSTEM_MESSAGE": 1
     }
 }
