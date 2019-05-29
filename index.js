@@ -473,7 +473,7 @@ module.exports = function autoFishing(mod) {
 					}
 			}
 	})
-	mod.hook('S_PCBANGINVENTORY_DATALIST', 1, event => {
+	mod.hook('S_PREMIUM_SLOT_DATALIST', 1, event => {
 		for (let item of event.inventory) {
 			if (ITEMS_BANKER.includes(item.item)) {
 				pcbangBanker = {
@@ -847,7 +847,7 @@ module.exports = function autoFishing(mod) {
 	}
 
 	function useSlot(slot) {
-		mod.send('C_PCBANGINVENTORY_USE_SLOT', 1, slot);
+		mod.send('C_USE_PREMIUM_SLOT', 1, slot);
 	}
 
 	function contactToNpc(gameId) {

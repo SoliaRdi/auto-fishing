@@ -1,22 +1,28 @@
 {
     "files": {
-        "index.js": "b96e4a05f4d44f48255b55d9d5d8c53699d7713e339f1138f5fb539b0a49c24b",
-        "module.json": "4711bfedcbd5ec6923c1822b7e30f653ee842bce0b9b2ea8e7333cf8f24e4db8"
+        "Available Fish.txt": "0cda9f49eb92c5a3e18ab96d03f04a690c481470dbf558efce60dc34af29ca00",
+        "Available Recipes.txt": "f2c269c1b2e7dfbaa362df48af66995b7070f804c3879309c892d855adf40a80",
+        "README.MD": "a791bd8ea5a689e4b0ee3049d8dbd1f7fdd24fd74109fbb400fe1fc77bfc5e1c",
+        "index.js": "883a190565b90fef8e4f66823ec28b0ed2e71f350af50e9f95f241966af50295",
+        "module.json": "212a8a06512877c1efa83938a62020e1e7b47899aa8b25ec5a0f75cffb6ca998"
     },
     "defs": {
         "C_CANCEL_CONTRACT": 1,
         "C_DIALOG": 1,
         "C_END_FISHING_MINIGAME": 1,
         "C_NPC_CONTACT": 2,
-        "C_PCBANGINVENTORY_USE_SLOT": 1,
         "C_PLAYER_LOCATION": 5,
+        "C_PUT_WARE_ITEM": 2,
         "C_REQUEST_CONTRACT": 1,
         "C_RETURN_TO_LOBBY": 1,
         "C_RQ_ADD_ITEM_TO_DECOMPOSITION_CONTRACT": 1,
         "C_RQ_COMMIT_DECOMPOSITION_CONTRACT": 1,
         "C_START_FISHING_MINIGAME": 1,
         "C_START_PRODUCE": 1,
+        "C_STORE_COMMIT": 1,
+        "C_STORE_SELL_ADD_BASKET": 1,
         "C_USE_ITEM": 3,
+        "C_USE_PREMIUM_SLOT": 1,
         "S_ABNORMALITY_BEGIN": 3,
         "S_ABNORMALITY_END": 1,
         "S_ABNORMALITY_REFRESH": 1,
@@ -28,13 +34,14 @@
         "S_FISHING_BITE": 1,
         "S_FISHING_CATCH": 1,
         "S_LOAD_TOPO": 3,
-        "S_PCBANGINVENTORY_DATALIST": 1,
+        "S_PREMIUM_SLOT_DATALIST": 1,
         "S_REQUEST_CONTRACT": 1,
         "S_RP_ADD_ITEM_TO_DECOMPOSITION_CONTRACT": 1,
         "S_SPAWN_NPC": 11,
         "S_SPAWN_USER": 14,
         "S_START_COOLTIME_ITEM": 1,
         "S_START_FISHING_MINIGAME": 1,
+        "S_STORE_BASKET": "raw",
         "S_SYSTEM_MESSAGE": 1
     }
 }
