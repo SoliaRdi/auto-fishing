@@ -525,7 +525,7 @@ module.exports = function autoFishing(mod) {
 		let filets = mod.game.inventory.findInBagOrPockets(FILET_ID);
 		let fishes = mod.game.inventory.findAllInBagOrPockets(flatSingle(ITEMS_FISHES)).filter(f => !config.blacklist.includes(f.id));
 		let bait = mod.game.inventory.findInBagOrPockets(Object.values(BAITS));
-		let salad = mod.game.inventory.findInBagOrPockets([206020, 206040]);
+		let salad = mod.game.inventory.findInBagOrPockets(ITEMS_SALAD);
 		if (config.autosalad) {
 			if (abnormalityDuration(70261) <= 0 && salad !== undefined)
 				action = "usesalad";
