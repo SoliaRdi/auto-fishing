@@ -1,7 +1,8 @@
 {
     "files": {
-        "index.js": "fdb49f5177be6b010ca6f0fc1bea2dcf95d2a3ef989d83537e93f9d7816e1224",
-        "module.json": "4711bfedcbd5ec6923c1822b7e30f653ee842bce0b9b2ea8e7333cf8f24e4db8"
+        "index.js": "da46749673a1362a37e0b8092799bf967a45ca48240abfe58c4a3a59cd522afd",
+        "module.json": "4711bfedcbd5ec6923c1822b7e30f653ee842bce0b9b2ea8e7333cf8f24e4db8",
+        
     },
     "defs": {
         "C_CANCEL_CONTRACT": 1,
@@ -9,12 +10,15 @@
         "C_END_FISHING_MINIGAME": 1,
         "C_NPC_CONTACT": 2,
         "C_PLAYER_LOCATION": 5,
+        "C_PUT_WARE_ITEM": [2,3],
         "C_REQUEST_CONTRACT": 1,
         "C_RETURN_TO_LOBBY": 1,
         "C_RQ_ADD_ITEM_TO_DECOMPOSITION_CONTRACT": 1,
         "C_RQ_COMMIT_DECOMPOSITION_CONTRACT": 1,
         "C_START_FISHING_MINIGAME": 1,
         "C_START_PRODUCE": 1,
+        "C_STORE_COMMIT": 1,
+        "C_STORE_SELL_ADD_BASKET": [1,2],
         "C_USE_ITEM": 3,
         "C_USE_PREMIUM_SLOT": 1,
         "S_ABNORMALITY_BEGIN": [3,4],
@@ -35,6 +39,7 @@
         "S_SPAWN_USER": 15,
         "S_START_COOLTIME_ITEM": 1,
         "S_START_FISHING_MINIGAME": 1,
+        "S_STORE_BASKET": "raw",
         "S_SYSTEM_MESSAGE": 1
     }
 }
